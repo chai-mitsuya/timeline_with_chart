@@ -1,0 +1,160 @@
+// 全体---------
+body {
+    background:#fffff4;
+}
+#container_back {
+    border: solid 2px orange;
+    background: lemonchiffon;
+    padding: 10px;
+}
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+}
+body > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+// モーダル---------
+.remodal {
+    padding: 10px;
+}
+
+// ツイート関連---------
+// 画像
+.tweet_media {
+    max-height: 100%;
+    }
+.tweet_media_div {
+    padding: 5px;
+}
+// 表示領域
+.card-body {
+    padding: 5px;
+}
+// ツイートの種類：通常
+.tweet_normal_back {
+    padding: 5px;
+    background: #d6ffff;
+}
+.tweet_normal_front {
+    background: #bcffff;
+}
+// ツイートの種類：リツイート
+.tweet_retweet_back {
+    padding: 5px;
+    background: #d6ffea;
+}
+.tweet_retweet_front {
+    background: #bcffdd;
+}
+// ツイートの種類：リプライ
+.tweet_reply_back {
+    padding: 5px;
+    background: #ffead6;
+}
+.tweet_reply_front {
+    background: #ffddbc;
+}
+// ツイッターリンク
+.btn-twitter-link {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    color: #FFFFFF;
+    background-color: #3FA2F1;
+    border-color: #3FA2F1;
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+}
+
+// 検索関連---------
+// クリアボタン
+.btn-clear {
+    color: #000000;
+    background-color: #C9CACA;
+    border-color: #C9CACA;
+}
+// ブロック
+.modal_d-block {
+    margin: 10px;
+    padding: 10px;
+}
+
+// チャート関連---------
+#c3_chart_div {
+    overflow: scroll;
+    margin: 5px;
+    background: #d6ffff;
+}
+#c3_chart {
+    margin: 10px;
+    background: #ffffff;
+}
+
+// colorbox関連---------
+#cboxLoadedContent {
+    background: #fff;
+}
+#cboxLoadedContent {
+    padding: 5;
+    overflow: auto;
+    -moz-box-shadow: 0px 1px 10px #000000; // ?
+    -webkit-box-shadow: 0px 1px 10px #000000; // ?
+    box-shadow: 0px 1px 10px #000000;
+}
+#cboxTitle {
+    top: -30px;
+    color: #fff;
+}
+#colorbox, #cboxWrapper { //#cboxOverlay外した
+    overflow: visible ;
+}
+// /* 前へボタン　*/
+#cboxPrevious {
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:url(images/controls.png) no-repeat 0px 0;
+    width:25px; height:25px;
+    text-indent:-9999px;
+}
+#cboxPrevious:hover {
+    background-position:0px -25px;
+}
+/* 次へボタン */
+#cboxNext {
+    position:absolute;
+    bottom:0;
+    left:27px;
+    background:url(images/controls.png) no-repeat -25px 0;
+    width:25px;
+    height:25px;
+    text-indent:-9999px;
+}
+#cboxNext:hover {
+    background-position:-25px -25px;
+}
+
+/*閉じるボタン */
+#cboxClose {
+    position:absolute;
+    bottom:0;
+    right:0;
+    background:url(images/controls.png) no-repeat -50px 0;
+    width:25px;
+    height:25px;
+    text-indent:-9999px;
+}
+#cboxClose:hover {
+    background-position:-50px -25px;
+}
